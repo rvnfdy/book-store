@@ -1,0 +1,19 @@
+<%= form_for @book do |f| %>
+		<p>
+		<%= f.label :name %>
+		<%= f.text_field :name %>
+		</p>
+		<p>
+		<%= f.label :author %>
+		<%= f.text_field :author %>
+		</p>
+		<p>
+		<%= f.label :price %>
+		<%= f.text_field :price %>
+		</p>
+		<p>
+		<%= f.label :quantity %>
+		<%= f.text_field :quantity %>
+		</p>
+		<%= f.submit 'Create' %>
+<% end %>
